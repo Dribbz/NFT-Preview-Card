@@ -35,16 +35,43 @@ img {
     -moz-box-shadow: 7px 11px 34px 12px rgba(10, 36, 78, 0.75);
 }
 
-.header img {
+.header .eth {
     border-radius: 10px;
 
 }
+
+.eth:hover{
+    cursor: pointer;
+    
+}
+
+.image {
+    position: relative;
+}
+
+.image div {
+    position: absolute;
+    top: 0;
+    opacity: 1;
+    background-color: cyan;
+    
+    
+}
+
+
+
+
 
 .header h1 {
     color: white;
     font-size: 1.4rem;
     font-weight: 600;
     margin: 1rem 0;
+}
+
+.header h1:hover{
+    color:hsl(178, 100%, 50%) ;
+    cursor: pointer;
 }
 
 .header p {
@@ -98,6 +125,11 @@ footer {
 footer a {
     text-decoration: none;
     color: white;
+    cursor: pointer;
+}
+
+footer a:hover {
+    color: hsl(178, 100%, 50%);
     cursor: pointer;
 }
 
