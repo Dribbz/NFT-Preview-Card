@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&family=Outfit:wght@300;400;600&family=Red+Hat+Display:wght@500;700;900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+background-color:hsl(217, 54%, 11%) ;
+font-family: 'Kumbh Sans', sans-serif;
+font-family: 'Outfit', sans-serif;
+font-family: 'Red Hat Display', sans-serif;
+
+}
+
+img {
+    width: 100%;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.card {
+    max-width: 400px;
+    padding: 1.5rem;
+    background-color:hsl(216, 50%, 16%);
+    border-radius: 10px;
+    box-shadow: 7px 11px 34px 12px rgba(10, 36, 78, 0.75);
+    -webkit-box-shadow: 7px 11px 34px 12px rgba(10, 36, 78, 0.75);
+    -moz-box-shadow: 7px 11px 34px 12px rgba(10, 36, 78, 0.75);
+}
+
+.header img {
+    border-radius: 10px;
+
+}
+
+.header h1 {
+    color: white;
+    font-size: 1.4rem;
+    font-weight: 600;
+    margin: 1rem 0;
+}
+
+.header p {
+    color:hsl(215, 51%, 70%) ;
+    font-size: 1.1rem;
+    font-weight: 300;
+    line-height: 1.4;
+    margin-bottom: 1rem;
+}
+
+.flex-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid hsl(215, 32%, 27%);
+    padding-bottom: 2rem;
+    
+}
+
+.etherium {
+   display: flex;
+   align-items: center;
+   gap: .3rem;
+}
+
+.etherium p {
+    display: inline;
+    color: hsl(178, 100%, 50%);
+}
+
+.clock {
+    display: flex;
+    align-items: center;
+    gap: .3rem;
+    
+}
+
+.clock p {
+    display: inline;
+    color: hsl(215, 51%, 70%);
+}
+
+
+footer {
+    margin-top: 1rem;
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+}
+
+footer a {
+    text-decoration: none;
+    color: white;
+    cursor: pointer;
+}
+
+footer p {
+    color: hsl(215, 51%, 70%);
+}
+
+
+footer img {
+    width: 50px;
+    aspect-ratio: 1;
+    border: 2px solid white;
+    border-radius: 50%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
